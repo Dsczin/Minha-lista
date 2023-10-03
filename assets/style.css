@@ -25,3 +25,51 @@ body{
     flex-direction: column;
      gap: 4rem;
 }
+.content--add-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input-new-task,
+#bt-task{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#input-new-task{
+    width: 20rem;
+    border-radius: 1rem ;
+}
+
+#bt-task{
+    background-color: var(--color-dark2);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+#bt-task:hover{
+    background-color: var(--color-dark3);
+}
+
+#List{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0%;
+
+}
+#List li{
+    list-style-type: none ;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;    
+}
